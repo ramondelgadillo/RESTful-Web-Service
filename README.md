@@ -1,4 +1,4 @@
-# Assignment 3 - Web Service
+# RESTful Web Service
 
 This a web service that provides endpoints to retrieve and display information about tweets, users, and external links from a Twitter archive. 
 
