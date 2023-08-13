@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  min-height: 100vh; /* Set minimum height to 100% of the viewport */
+  margin: 0;
+  background-color: #16181C; /* Dark background color */
+  overflow-x: hidden;
+  color: #ffffff; /* Text color */
+
+}
+
+header {
+  background-color: #1da1f2;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 0; /* Add padding to the header */ 
+}
+
+
+footer {
+  background-color: #1da1f2;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:hover {
+  background-color: #1da1f2;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px; /* Adjust for button margins */
+  flex: 1; /* Allow the container to expand to fill remaining space */
+  padding: 1rem;
+}
+
+.column {
+  flex: 33.33%; /* Three columns per row */
+  padding: 0 10px; /* Adjust for button margins */
+  flex: 1; /* Allow the container to expand to fill remaining space */
+  padding: 1rem;
+  flex: 33.33%;
+  padding: 0 10px 1rem; /* Adjusted padding for column content */
+}
+
+#container {
+  margin-bottom: 50px; /* Adjust the value to match the height of your footer */
+}
+
+#tweetsContainer, #allUsers, #externalLinksContainer, #tweetDetails, #profileInfo {
+  margin-top: 20px;
+  background-color: #3E4144; /* Darker background for content containers */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1; /* Allow the container to expand to fill remaining space */
+  padding: 1rem;
+}

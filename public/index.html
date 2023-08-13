@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Assignment 3 - Web Service</title>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Assignment 3 - Web Service</h1>
+    </header>
+
+    <div class="row">
+      <div class="column">
+        <h2>Tweet Viewer</h2>
+        <button id="getTweetsBtn">Get all Tweets</button>
+        <div id="tweetsContainer"></div>
+      </div>
+
+      <div class="column">
+        <h2>Users Viewer</h2>
+        <button id="getAllUsersBtn">Get all Users</button>
+        <div id="allUsers"></div>
+      </div>
+      <div class="column">
+        <h2>External Links Viewer</h2>
+        <button id="getExternalLinksBtn">Get External Links</button>
+        <div id="externalLinksContainer"></div>
+      </div>
+      <div class="column">
+        <h2>Tweet Details Viewer</h2>
+        <input type="text" id="tweetId" placeholder="Enter tweet ID">
+        <button id="tweetsearchBtn">Search</button>
+        <div id="tweetDetails"></div>
+      </div>
+      <div class="column">
+        <h2>User Profile Viewer</h2>
+        <input type="text" id="screenName" placeholder="Enter screen name">
+        <button id="usersearchBtn">Search</button>
+        <div id="profileInfo"></div>
+      </div>
+    </div>
+    
+    <footer>
+      <p>CECS 327 - Ramon Delgadillo &copy; 2023</p>  
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
